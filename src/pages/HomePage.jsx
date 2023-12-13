@@ -6,7 +6,7 @@ import Button from '../components/Button';
 const HomePage = () => {
     return (
 			<div>
-				<div className='bg-gradient-to-b from-violet-600/[.15] via-transparent'>
+				<div className=''>
 					<div className='max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-12'>
 						<div className='flex items-center justify-center'>
 							<img src={hi} className='w-[12rem] mt-10' alt='' />

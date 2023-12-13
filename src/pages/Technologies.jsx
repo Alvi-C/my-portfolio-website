@@ -1,4 +1,5 @@
 
+import Button from '../components/Button'
 import { techStackDetails } from '../webData'
 
 const Technologies = () => {
@@ -19,19 +20,27 @@ const Technologies = () => {
 		postman,
 		figma,
 		notion,
+		firebase,
+		vercel,
+		netlify
 	} = techStackDetails
 
 	return (
 		<div className='container-size flex flex-col items-center justify-center text-center'>
-			<div className='mt-[6rem]'>
-				<h1 className='text-2xl text-slate-100 md:text-4xl xl:text-5xl xl:leading-tight font-semibold'>
+			<div className='mt-10'>
+				<h1 className='text-2xl text-gradient-secondary md:text-4xl xl:text-5xl xl:leading-tight font-semibold'>
 					Tech Stack
 				</h1>
-				<p className='text-white py-2 lg:max-w-3xl mb-10'>
+				<p className='text-slate-300 font-light py-2 lg:max-w-3xl mb-10'>
 					Technologies I have been working with:
 				</p>
 			</div>
-			<div className='w-full px-3'>
+			<div>
+				<h1 className='text-xl text-slate-100 xl:text-2xl font-bold mb-10'>
+					Development
+				</h1>
+			</div>
+			<div className='w-full px-3 mb-16'>
 				<div className='flex flex-wrap items-center justify-center gap-6 md:gap-10'>
 					<img src={html} className='w-12 md:w-16' title='html' alt='' />
 					<img src={css} className='w-12 md:w-16' title='CSS' alt='' />
@@ -60,11 +69,11 @@ const Technologies = () => {
 				</div>
 			</div>
 			<div>
-				<h1 className='text-base mt-6 md:mt-10 pt-6 md:pt-10 text-slate-100 md:text-4xl xl:text-5xl xl:leading-tight font-bold mb-6'>
+				<h1 className='text-xl text-slate-100 xl:text-2xl font-bold mb-10'>
 					Tools
 				</h1>
 			</div>
-			<div className='w-full'>
+			<div className='w-full mb-16'>
 				<div className='flex flex-wrap items-center justify-center gap-6 lg:gap-10'>
 					<img
 						src={vscode}
@@ -94,6 +103,21 @@ const Technologies = () => {
 						alt='Notion'
 					/>
 				</div>
+			</div>
+			<div>
+				<h1 className='text-xl text-slate-100 xl:text-2xl font-bold mb-10'>
+					Clouds
+				</h1>
+			</div>
+			<div className='w-full'>
+				<div className='flex flex-wrap items-center justify-center gap-6 lg:gap-10'>
+					<img src={firebase} className='w-32' title='firebase' alt='' />
+					<img src={vercel} className='w-32' title='vercel' alt='' />
+					<img src={netlify} className='w-32' title='netlify' alt='' />
+				</div>
+			</div>
+			<div className='my-14'>
+				<Button title='check my projects' link='/projects' />
 			</div>
 		</div>
 	)
