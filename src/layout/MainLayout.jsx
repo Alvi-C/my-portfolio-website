@@ -5,10 +5,12 @@ import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
     return (
-			<div className=''>
-				<Navbar />
-				<Outlet />
-				<Footer />
+			<div className='bg-slate-900 min-h-screen'>
+				<div className='bg-gradient-to-b from-violet-600/[.15] via-transparent'>
+					<Navbar />
+					<Outlet />
+					<Footer />
+				</div>
 			</div>
 		)
 };
