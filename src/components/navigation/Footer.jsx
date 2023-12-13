@@ -9,7 +9,7 @@ const Footer = () => {
 					<p>
 						Designed and Coded by{' '}
 						<Link
-							to='https://github.com'
+							to='https://github.com/Alvi-C'
 							className='font-medium'
 							target='_blank'
 						>

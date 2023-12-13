@@ -62,22 +62,22 @@ const Navbar = () => {
 					</ul>
 					<ul className='text-2xl font-medium text-white flex items-center gap-4'>
 						<li>
-							<a
-								href={socialMediaUrl.github}
+							<Link
+								to={socialMediaUrl.github}
 								target='_blank'
 								rel='noopener noreferrer'
 							>
 								<FaGithub />
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a
-								href={socialMediaUrl.linkedin}
+							<Link
+								to={socialMediaUrl.linkedin}
 								target='_blank'
 								rel='noopener noreferrer'
 							>
 								<IoLogoLinkedin />
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
