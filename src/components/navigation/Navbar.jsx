@@ -30,7 +30,7 @@ const Navbar = () => {
 						<li>
 							<NavLink
 								to='/'
-								className={({ isActive }) => (isActive ? 'text-lime-500' : '')}
+								className={({ isActive }) => (isActive ? 'text-yellow-500' : '')}
 							>
 								Home
 							</NavLink>
@@ -38,7 +38,7 @@ const Navbar = () => {
 						<li>
 							<NavLink
 								to='/technologies'
-								className={({ isActive }) => (isActive ? 'text-lime-500' : '')}
+								className={({ isActive }) => (isActive ? 'text-yellow-500' : '')}
 							>
 								Technologies
 							</NavLink>
@@ -46,7 +46,7 @@ const Navbar = () => {
 						<li>
 							<NavLink
 								to='/projects'
-								className={({ isActive }) => (isActive ? 'text-lime-500' : '')}
+								className={({ isActive }) => (isActive ? 'text-yellow-500' : '')}
 							>
 								Projects
 							</NavLink>
@@ -54,7 +54,7 @@ const Navbar = () => {
 						<li>
 							<NavLink
 								to='/contact'
-								className={({ isActive }) => (isActive ? 'text-lime-500' : '')}
+								className={({ isActive }) => (isActive ? 'text-yellow-500' : '')}
 							>
 								Contact
 							</NavLink>
@@ -107,7 +107,7 @@ const Navbar = () => {
 							<NavLink
 								to='/'
 								className={({ isActive }) =>
-									isActive ? 'text-lime-500 border-b border-lime-500' : ''
+									isActive ? 'text-yellow-500 border-b border-yellow-500' : ''
 								}
 							>
 								Home
@@ -117,7 +117,7 @@ const Navbar = () => {
 							<NavLink
 								to='/technologies'
 								className={({ isActive }) =>
-									isActive ? 'text-lime-500 border-b border-lime-500' : ''
+									isActive ? 'text-yellow-500 border-b border-yellow-500' : ''
 								}
 							>
 								Technologies
@@ -127,7 +127,7 @@ const Navbar = () => {
 							<NavLink
 								to='/projects'
 								className={({ isActive }) =>
-									isActive ? 'text-lime-500 border-b border-lime-500' : ''
+									isActive ? 'text-yellow-500 border-b border-yellow-500' : ''
 								}
 							>
 								Projects
@@ -137,7 +137,7 @@ const Navbar = () => {
 							<NavLink
 								to='/contact'
 								className={({ isActive }) =>
-									isActive ? 'text-lime-500 border-b border-lime-500' : ''
+									isActive ? 'text-yellow-500 border-b border-yellow-500' : ''
 								}
 							>
 								Contact
