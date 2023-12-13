@@ -106,7 +106,7 @@ const Technologies = () => {
 			</div>
 			<div>
 				<h1 className='text-xl text-slate-100 xl:text-2xl font-bold mb-10'>
-					Clouds
+					Deployment
 				</h1>
 			</div>
 			<div className='w-full'>
