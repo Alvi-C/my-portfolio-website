@@ -21,6 +21,10 @@ body::-webkit-scrollbar {
 	@apply w-[95%] md:w-[90%] mx-auto;
 }
 
+/* .container-size {
+	@apply container mx-auto max-w-full md:max-w-screen-md lg:max-w-screen-lg pt-10 pb-20;
+} */
+
 .section {
 	@apply pt-28 xl:pt-28 2xl:pt-44;
 }

@@ -1,11 +1,102 @@
 
+import { techStackDetails } from '../webData'
 
 const Technologies = () => {
-    return (
-        <div>
-            <h2>Technologies</h2>
-        </div>
-    );
-};
+	const {
+		html,
+		css,
+		tailwind,
+		js,
+		react,
+		tanstackQuery,
+		nodeJs,
+		expressJs,
+		mongodb,
+		vscode,
+		git,
+		github,
+		npm,
+		postman,
+		figma,
+		notion,
+	} = techStackDetails
 
-export default Technologies;
+	return (
+		<div className='container-size flex flex-col items-center justify-center text-center'>
+			<div className='mt-[6rem]'>
+				<h1 className='text-2xl text-slate-100 md:text-4xl xl:text-5xl xl:leading-tight font-semibold'>
+					Tech Stack
+				</h1>
+				<p className='text-white py-2 lg:max-w-3xl mb-10'>
+					Technologies I have been working with:
+				</p>
+			</div>
+			<div className='w-full px-3'>
+				<div className='flex flex-wrap items-center justify-center gap-6 md:gap-10'>
+					<img src={html} className='w-12 md:w-16' title='html' alt='' />
+					<img src={css} className='w-12 md:w-16' title='CSS' alt='' />
+					<img
+						src={tailwind}
+						className='w-12 md:w-16'
+						title='Tailwind CSS'
+						alt=''
+					/>
+					<img src={js} className='w-12 md:w-16' title='JavaScript' alt='' />
+					<img src={react} className='w-12 md:w-16' title='React' alt='' />
+					<img
+						src={tanstackQuery}
+						className='w-12 md:w-16'
+						title='Tanstack'
+						alt=''
+					/>
+					<img src={nodeJs} className='w-12 md:w-16' title='Node' alt='' />
+					<img
+						src={expressJs}
+						className='w-16 md:w-24'
+						title='Express'
+						alt=''
+					/>
+					<img src={mongodb} className='w-12 md:w-16' title='MongoDB' alt='' />
+				</div>
+			</div>
+			<div>
+				<h1 className='text-base mt-6 md:mt-10 pt-6 md:pt-10 text-slate-100 md:text-4xl xl:text-5xl xl:leading-tight font-bold mb-6'>
+					Tools
+				</h1>
+			</div>
+			<div className='w-full'>
+				<div className='flex flex-wrap items-center justify-center gap-6 lg:gap-10'>
+					<img
+						src={vscode}
+						className='w-12 md:w-16'
+						title='Visual Studio Code'
+						alt=''
+					/>
+					<img src={git} className='w-12 md:w-16' title='Git' alt='Git' />
+					<img
+						src={github}
+						className='w-12 md:w-16'
+						title='Github'
+						alt='Github'
+					/>
+					<img src={figma} className='w-8 md:w-10' title='Figma' alt='Figma' />
+					<img src={npm} className='h-10 md:h-12' title='NPM' alt='NPM' />
+					<img
+						src={postman}
+						className='w-12 md:w-16'
+						title='Postman'
+						alt='Postman'
+					/>
+					<img
+						src={notion}
+						className='w-12 md:w-16'
+						title='Notion'
+						alt='Notion'
+					/>
+				</div>
+			</div>
+		</div>
+	)
+}
+
+export default Technologies
